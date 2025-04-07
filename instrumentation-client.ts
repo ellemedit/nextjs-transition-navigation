@@ -1,0 +1,1 @@
+import "@virtualstate/navigation/polyfill";
