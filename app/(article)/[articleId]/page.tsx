@@ -16,7 +16,10 @@ export default function Page() {
           key={index}
           className="p-8 border rounded grid gap-2 auto-rows-min"
         >
-          <Link href="/article" className="text-xl font-bold">
+          <Link
+            href={`/${faker.lorem.slug({ min: 1, max: 8 })}`}
+            className="text-xl font-bold"
+          >
             {faker.lorem.sentence({ min: 5, max: 15 })}
           </Link>
           <p className="line-clamp-5 text-sm">
