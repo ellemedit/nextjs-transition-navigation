@@ -17,7 +17,7 @@ export function TopNavigation(props: ComponentPropsWithRef<"div">) {
         )}
       >
         <ViewTransition name="top-navigation-content">
-          {props.children}
+          <div>{props.children}</div>
         </ViewTransition>
       </div>
     </ViewTransition>
