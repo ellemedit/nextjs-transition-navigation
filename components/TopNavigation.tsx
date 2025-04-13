@@ -16,8 +16,7 @@ export function TopNavigation({
       <div
         {...otherProps}
         className={twMerge(
-          "sticky top-0 px-8 sm:px-[10vw] py-4 bg-white border-b-2 border-black z-10",
-          className
+          "sticky top-0 px-8 sm:px-[10vw] py-4 bg-white border-b-2 border-black z-10"
         )}
       >
         <ViewTransition name="top-navigation-content">
