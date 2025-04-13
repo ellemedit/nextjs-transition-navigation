@@ -36,7 +36,7 @@
 
 :root:active-view-transition-type(navigation-forward) {
   &::view-transition-group(*) {
-    animation: none !important;
+    animation: none;
   }
   &::view-transition-old(.navigation-container) {
     animation: 100ms cubic-bezier(0.4, 0, 1, 1) both
@@ -54,7 +54,7 @@
 
 :root:active-view-transition-type(navigation-back) {
   &::view-transition-group(*) {
-    animation: none !important;
+    animation: none;
   }
   &::view-transition-old(.navigation-container) {
     animation: 100ms cubic-bezier(0.4, 0, 1, 1) both
